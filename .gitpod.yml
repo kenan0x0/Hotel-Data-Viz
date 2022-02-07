@@ -1,0 +1,9 @@
+tasks:
+  - init: |
+      pip install -r requirements.txt
+      python init_env.py
+    command: python app.py
+vscode:
+  extensions:
+    - ms-python.python
+
